@@ -6,6 +6,9 @@ public class DependencyException {
     private String dependency1;
     private String dependency2;
     
+    public DependencyException() {
+    }
+    
     public DependencyException(String dependency1, String dependency2) {
         this.dependency1 = dependency1;
         this.dependency2 = dependency2;
