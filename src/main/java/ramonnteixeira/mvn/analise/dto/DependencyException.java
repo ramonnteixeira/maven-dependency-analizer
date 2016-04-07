@@ -1,4 +1,4 @@
-package com.github.ramonnteixeira.dto;
+package ramonnteixeira.mvn.analise.dto;
 
 
 public class DependencyException {

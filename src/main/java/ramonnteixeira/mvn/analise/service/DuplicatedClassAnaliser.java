@@ -1,4 +1,4 @@
-package com.github.ramonnteixeira.service;
+package ramonnteixeira.mvn.analise.service;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -20,8 +20,8 @@ import org.apache.maven.plugins.annotations.Parameter;
 import org.apache.maven.plugins.annotations.ResolutionScope;
 import org.apache.maven.project.MavenProject;
 
-import com.github.ramonnteixeira.dto.DependencyException;
-import com.github.ramonnteixeira.exception.DuplicatedClassException;
+import ramonnteixeira.mvn.analise.dto.DependencyException;
+import ramonnteixeira.mvn.analise.exception.DuplicatedClassException;
 
 @Mojo(name="duplicated-class", defaultPhase=LifecyclePhase.COMPILE, requiresDependencyResolution=ResolutionScope.RUNTIME)
 public class DuplicatedClassAnaliser extends AbstractMojo {

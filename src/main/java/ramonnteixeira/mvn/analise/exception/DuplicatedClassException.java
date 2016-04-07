@@ -1,4 +1,4 @@
-package com.github.ramonnteixeira.exception;
+package ramonnteixeira.mvn.analise.exception;
 
 public class DuplicatedClassException extends RuntimeException {
 
