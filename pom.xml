@@ -4,13 +4,13 @@
 
 	<packaging>maven-plugin</packaging>
 	
-	<groupId>ramonnteixeira.mvn.analise</groupId>
-	<artifactId>dependency-analize</artifactId>
+	<groupId>com.github.ramonnteixeira</groupId>
+	<artifactId>dependency-analize-plugin</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
 	<properties>
-		<maven.compiler.target>1.8</maven.compiler.target>
-		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.6</maven.compiler.target>
+		<maven.compiler.source>1.6</maven.compiler.source>
 	</properties>
 
 	<dependencies>
