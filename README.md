@@ -19,8 +19,7 @@ this plugin is to avoid duplicate classes by maven dependencies with different g
 	</plugin>
 ```
 
-* Configuration
-It is possible to configure the exceptions list will be ignored for the plugin.
+* It is possible to configure the exceptions list will be ignored for the plugin.
 
 ```xml
 	<plugin>
