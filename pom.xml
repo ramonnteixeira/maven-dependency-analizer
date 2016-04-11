@@ -6,7 +6,35 @@
 	
 	<groupId>com.github.ramonnteixeira</groupId>
 	<artifactId>dependency-analizer-plugin</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
+
+	<distributionManagement>
+		<repository>
+			<id>maven-central</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+		</repository>
+		<snapshotRepository>
+			<id>maven-central</id>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+	<repositories>
+		<repository>
+			<id>maven-central-releases</id>
+			<url>https://oss.sonatype.org/content/groups/public</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+		</repository>
+		<repository>
+			<id>maven-central-snapshots</id>
+			<url>https://oss.sonatype.org/content/groups/staging</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
 
 	<properties>
 		<maven.compiler.target>1.6</maven.compiler.target>
