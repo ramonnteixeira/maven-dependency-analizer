@@ -1,4 +1,4 @@
-# Maven dependency analise
+# Maven dependency analizer
 
 this plugin is to avoid duplicate classes by maven dependencies with different groupID
 
