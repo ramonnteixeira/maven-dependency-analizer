@@ -8,7 +8,7 @@ this plugin is to avoid duplicate classes by maven dependencies with different g
 	<plugin>
 		<groupId>com.github.ramonnteixeira</groupId>
 		<artifactId>dependency-analize-plugin</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>1.0.0</version>
 		<executions>
 			<execution>
 				<goals>
@@ -25,7 +25,7 @@ this plugin is to avoid duplicate classes by maven dependencies with different g
 	<plugin>
 		<groupId>com.github.ramonnteixeira</groupId>
 		<artifactId>dependency-analize-plugin</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>1.0.0</version>
 		<executions>
 			<execution>
 				<goals>
