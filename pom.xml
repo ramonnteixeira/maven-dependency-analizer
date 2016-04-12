@@ -8,6 +8,27 @@
 	<artifactId>dependency-analizer-plugin</artifactId>
 	<version>1.0.0</version>
 
+	<licenses>
+		<license>
+			<name>Apache License 2.0</name>
+			<url>http://www.spdx.org/licenses/Apache-2.0</url>
+		</license>
+	</licenses>
+
+	<name>Maven dependency analiser plugin</name>
+	<description>This plugin is to avoid duplicate classes by maven dependencies with different groupID</description>
+	<url>https://github.com/ramonnteixeira/maven-dependency-analizer</url>
+	<scm>
+		<url>https://github.com/ramonnteixeira/maven-dependency-analizer.git</url>
+	</scm>
+
+	<developers>
+		<developer>
+			<name>Ramon Nunes Teixeira</name>
+			<email>ramon.nteixeira@gmail.com</email>
+		</developer>
+	</developers>
+
 	<distributionManagement>
 		<snapshotRepository>
 			<id>ossrh</id>
@@ -69,6 +90,20 @@
 						<id>attach-sources</id>
 						<goals>
 							<goal>jar-no-fork</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-gpg-plugin</artifactId>
+				<version>1.5</version>
+				<executions>
+					<execution>
+						<id>sign-artifacts</id>
+						<phase>verify</phase>
+						<goals>
+							<goal>sign</goal>
 						</goals>
 					</execution>
 				</executions>
